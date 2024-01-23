@@ -1,0 +1,226 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    background-color: rgb(41, 39, 39);
+}
+
+#nav{
+    background-color:black;
+    padding-bottom: 10px;
+    text-align: center;
+    
+}
+.navig{
+    color: white;
+    text-decoration: none;
+    margin: 50px;
+    font-size: 90%;
+    font-weight: bold;
+    font-family: cursive;
+    padding: 5px;
+
+}
+.navig:hover{
+    border-radius: 5px;
+    border: 2px solid white;
+}
+#intro{
+    background-color:black;
+    color: white;
+    height: 400px;
+    width: 900px;
+    position: absolute;
+    left: 300px;
+    top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 10px 10px 10px 10px black;
+    border: 2px solid white;
+}
+#about{
+    background-color: black;
+    color:white;
+    height: 400px;
+    width: 900px;
+    position: absolute;
+    left: 300px;
+    top: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    box-shadow: 10px 10px 10px 10px black;
+    border: 2px solid white;
+}
+#skill{
+    box-shadow: 10px 10px 10px 10px black;
+    border: 2px solid white;
+    background-color:black;
+    color: white;
+    height: 500px;
+    width: 900px;
+    position: absolute;
+    left: 300px;
+    top: 940px;
+    display: flex;
+    flex-wrap: wrap;
+}
+h1{
+    
+    margin-top: 100px;
+    margin-left: 280px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+}
+#para1{
+    position: absolute;
+    top: 190px;
+    left: 230px;
+    font-size: large;
+    font-family: cursive;
+}
+#img1{
+    height: 300px;
+    width: 190px;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+h2{
+    margin-top: 80px;
+    margin-left: 380px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+
+}
+#para2{
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    line-height: 35px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    font-size: large;
+    font-family: cursive;
+    
+}
+#resume{
+    position: absolute; 
+    top: 340px;
+    left: 400px;
+    font-family: cursive;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+
+    padding: 5px;
+}
+#resume:hover{
+    opacity: 0.6;
+}
+#insta{
+    height: 40px;
+    width: 70px;
+    border-radius: 15px;
+    position: absolute;
+    top: 300px;
+    left: 260px;
+    opacity: 0.3;
+}
+#tweet{
+    height: 40px;
+    width: 40px;
+    border-radius: 28px;
+    position: absolute;
+    top: 300px;
+    left: 340px;
+    opacity: 0.4;
+}
+#linkd{
+    height: 40px;
+    width: 40px;
+    border-radius: 28px;
+    position: absolute;
+    top: 300px;
+    left: 400px;
+    opacity: 0.4;
+}
+#facebk{
+    height: 38px;
+    width: 38px;
+    border-radius: 28px;
+    position: absolute;
+    top: 300px;
+    left: 460px;
+    opacity: 0.4;
+}
+#wapp{
+    height: 42px;
+    width: 42px;
+    border-radius: 28px;
+    position: absolute;
+    top: 300px;
+    left: 520px;
+    opacity: 0.4;
+}
+#tele{
+    height: 42px;
+    width: 42px;
+    border-radius: 28px;
+    position: absolute;
+    top: 300px;
+    left: 580px;
+    opacity: 0.4;
+}
+#html{
+    position: absolute;
+    height: 100px;
+    width:100px;
+    top: 220px;
+    left: 100px;
+}
+#css{
+    position: absolute;
+    height: 110px;
+    width:120px;
+    top: 220px;
+    left: 370px;
+}
+#js{
+    position: absolute;
+    height:105px;
+    width:180px;
+    top: 220px;
+    right: 100px;
+}
+#lang1{
+    font-family: cursive;
+    font-size: large;
+    font-style: italic;
+    text-decoration: underline;
+    position: absolute;
+    top: 340px;
+    left: 130px;
+}
+#lang2{
+    font-family: cursive;
+    font-size: large;
+    font-style: italic;
+    text-decoration: underline;
+    position: absolute;
+    top: 340px;
+    left: 400px;
+}
+#lang3{
+    font-family: cursive;
+    font-size: large;
+    font-style: italic;
+    text-decoration: underline;
+    position: absolute;
+    top: 340px;
+    right: 130px;
+}

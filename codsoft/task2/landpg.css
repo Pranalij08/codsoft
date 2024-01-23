@@ -1,0 +1,238 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: black;
+    padding: 8px;
+    border: 2px solid white;
+    
+   
+}
+a{
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: large;
+    margin: 50px;
+}
+a:hover{
+    background-color: wheat;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+}
+#main{
+    border: 2px solid black;
+    padding: 300px;
+    background-image: url("https://levycon.com/public/assets/img/food-delivery.webp");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-color: black;
+    opacity: 0.9;
+}
+#staff{
+    border: 2px solid black;
+    padding: 200px;
+    background-image: url("https://wallpapercave.com/wp/wp2471829.jpg");
+    background-size: cover;
+    
+}
+h1{
+    border: 2px solid black;
+    color: rgb(252, 165, 3);
+    font-family:cursive;
+    word-spacing: 3px;
+    /* margin-left: 0px; */
+    text-align: center;
+    position: absolute;
+    left: 10px;
+    top: 70px;
+    background-color: black;
+    opacity: 0.9;
+    
+}
+
+#para11{
+    border: 2px solid black;
+    background-color: rgb(244, 238, 238);
+    color: black;
+    opacity: 0.9;
+    word-spacing: 5px;
+    font-family: cursive;
+    font-size: large;
+    position: absolute;
+    left: 10px;
+    top: 140px;
+}
+#para12{
+    border: 2px solid black;
+    background-color: rgb(244, 238, 238);
+    color: black;
+    opacity: 0.9;
+    word-spacing: 5px;
+    font-family: cursive;
+    font-size: large;
+    position: absolute;
+    left: 10px;
+    top: 172px;
+}
+#para13{
+    border: 2px solid black;
+    background-color: rgb(244, 238, 238);
+    color: black;
+    opacity: 0.9;
+    word-spacing: 5px;
+    font-family: cursive;
+    font-size: large;
+    position: absolute;
+    left: 10px;
+    top: 204px;
+}
+#form{
+    text-align: center;
+    position: absolute;
+    right: 180px;
+    bottom: 110px;
+    color: aliceblue;
+    line-height: 45px;
+    font-weight: 300;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    font-family:cursive;
+
+}
+#f{
+    font-family:cursive;
+    color: aliceblue;
+
+}
+.btn{
+    padding: 6px;
+   margin: 20px;
+   font-weight: bold;
+    
+}
+.btn:hover{
+    background-color: black;
+    color: beige;
+    box-shadow: 2px 2px 2px 2px wheat;
+}
+.text{
+    font-family: cursive;
+    font-size: large;
+}
+.feed{
+    font-family: cursive;
+    font-size: large;
+
+}
+#para2{
+    /* border: 2px solid black; */
+    color: whitesmoke;
+    word-spacing: 8px;
+    font-family: cursive;
+    font-size: larger;
+    text-decoration: underline;
+    position: absolute;
+    left: 600px;
+    top: 650px;
+    /* background-color: black; */
+    /* opacity: 0.6; */
+}
+#img1{
+    height: 280px;
+    width: 290px;
+    position: absolute;
+    left: 20px;
+    bottom: -230px; 
+    border-radius: 10px;
+    border: 2px solid wheat;
+
+}
+#img1:hover{
+    transform: scale(0.8);
+    transition: 1s ease-in-out;
+}
+#img2{
+    height: 280px;
+    width: 290px;
+    position: absolute;
+    left: 400px;
+    bottom: -230px; 
+    border-radius: 10px;
+    border: 2px solid wheat;
+
+}
+#img2:hover{
+    transform: scale(0.8);
+    transition: 1s ease-in-out;
+}
+#img3{
+    height: 280px;
+    width: 290px;
+    position: absolute;
+    right: 400px;
+    bottom: -230px; 
+    border-radius: 10px;
+    border: 2px solid wheat;
+    
+}
+#img3:hover{
+    transform: scale(0.8);
+    transition: 1s ease-in-out;
+}
+#img4{
+    height: 280px;
+    width: 290px;
+    position: absolute;
+   right: 20px;
+   bottom: -230px; 
+   border-radius: 10px;
+   border: 2px solid wheat;
+}
+#img4:hover{
+    transform: scale(0.8);
+    transition: 1s ease-in-out;
+}
+#starter{
+    color: aliceblue;
+    font-family: cursive;
+    font-size: large;
+    position: absolute;
+    left: 20px;
+    bottom: -280px; 
+
+}
+#maincourse{
+    color: aliceblue;
+    font-family: cursive;
+    font-size: large;
+    position: absolute;
+    left: 400px;
+    bottom: -280px;
+
+}
+#desserts{
+    color: aliceblue;
+    font-family: cursive;
+    font-size: large;
+    position: absolute;
+    right: 480px;
+    bottom: -280px; 
+
+}
+#beverages{
+    color: aliceblue;
+    font-family: cursive;
+    font-size: large;
+    position: absolute;
+    right: 80px;
+    bottom: -280px;
+
+
+}
+u{
+    font-size: large;
+}
